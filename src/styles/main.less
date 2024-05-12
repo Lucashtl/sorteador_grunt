@@ -1,0 +1,63 @@
+@fontePrincipal: Roboto, sans-serif;
+@fonteDoTitulo: Lobster, cursive;
+@corDotexto: #fff;
+@cordefundo: #eb3b5a;
+
+body{
+    background-color: @cordefundo;
+    font-family: @fontePrincipal;
+    color: @corDotexto;
+}
+
+h1{
+    font-family: @fonteDoTitulo;
+    font-size: 3em;
+}
+
+form{
+    padding: 16px;
+
+    input{
+        padding: 16px;
+        display: block;
+        margin: 16px auto 0;
+        font-size: 2em;
+        max-width: 120px;
+        border: none;
+        background-color: transparent;
+        text-align: center;
+        color: #fff;
+        border-bottom: 6px solid #fff;
+    }
+    button{
+        padding: 16px;
+        background-color: #f7b731;
+        color: black;
+        margin-top: 30px;
+        font-size: 1.3em;
+        font-weight: bold;
+        border-radius: 8px;
+        font-family: @fontePrincipal;
+    }
+}
+
+main{
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.resultado{
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted blue;
+    display: none;
+
+    span{
+        font-size: 2em;
+        font-weight: bold;
+        display: block;
+    }
+}
